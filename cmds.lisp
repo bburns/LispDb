@@ -91,7 +91,8 @@
   (println "Bye..."))
 
 
-; test
+; tests
+
 (when-run
   (cmd-load-db)
   (db-load "lisps.db")

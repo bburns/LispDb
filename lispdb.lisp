@@ -1,12 +1,7 @@
 
 ; -------------------------------------------------------------------------------
-; Assignment 4: Database
-; CS105: Common Lisp
-;
-; Brian Burns 
-; email: bburns.km@gmail.com
-;
-; Using CLISP 2.43 on Windows
+; lispdb
+; Main program
 ; -------------------------------------------------------------------------------
 
 (load "lib.lisp")

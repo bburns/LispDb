@@ -89,6 +89,8 @@
   )
 
 
+; tests
+
 (when-run
 
   (test (db-add '(nil bleargh)) 1)
