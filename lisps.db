@@ -1,0 +1,10 @@
+
+((1 "Lisp" "lisp1" "Lisp 1" "1958" "MIT") (2 "Lisp" "lisp1.5" "Lisp 1.5" "1960" "MIT")
+ (3 "Lisp" "maclisp" "MacLisp" "1966" "MIT") (4 "Lisp" "bbnlisp" "BBN Lisp" "1964" "BBN")
+ (5 "Lisp" "muddle" "Muddle (MDL)" "1971?" "MIT")
+ (6 "Lisp" "gcl" "Gnu Common Lisp (GCL)" "1994" "Austin")
+ (7 "Lisp" "kcl" "Kyoto Common Lisp (KCL)" "1984" "Kyoto Japan")
+ (8 "Lisp" "scheme" "Scheme" "1975" "MIT") (9 "Lisp" "interlisp" "InterLisp" "1972" "Xerox Parc")
+ (10 "Lisp" "lmlisp" "Lisp Machine Lisp" "" "MIT") (11 "Lisp" "arc" "Arc" "2000?" "?")
+ (12 "Lisp" "cl" "Common Lisp" "1981" "")) 
+ 
