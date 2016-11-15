@@ -6,18 +6,23 @@ A simple database written in Common Lisp.
 
 ## Files
 
-* lispdb.lsp - the main program - defines the commands that interact with the database, defines the menus, and runs the main loop. 
-* db.lsp - the main database file - can say (db-list) to get the whole database, or (db-list (where "location" "mit")) to get objects matching that, or (db-list (where "location" "mit") (sortby "started")) to sort by year (no menu interface for the sorting though). 
-* format.lsp - a generic table formatter, will adjust column widths. 
-* cui.lsp - the console ui interface - handles input and output. 
-* obj.lsp - a minimal object system using plain lists
+File | Description
+--- | ---
+lispdb.lisp | the main program - defines the commands that interact with the database, defines the menus, and runs the main loop. 
+cmds.lisp | defines the available commands
+db.lisp | the main database control file - can say (db-list) to get the whole database, or (db-list (where "location" "mit")) to get objects matching that, or (db-list (where "location" "mit") (sortby "started")) to sort by year (no menu interface for the sorting though). 
+format.lisp | a generic table formatter, will adjust column widths. 
+cui.lisp | the console ui interface - handles input and output. 
+obj.lisp | a minimal object system using plain lists
+lib.lisp | a library that aims to make common lisp more scheme-like
+lisps.db | the database file in text format
 
 Each file can be run separately to run it through its tests. 
 
 
 ## Transcript
 
-```lisp
+<pre>
 >lisp lispdb.lisp
 
 Welcome to the database.
@@ -138,6 +143,6 @@ id  type  key        name                  started  location
 Command: 7
 
 Bye...
-```
+</pre>
 
 
